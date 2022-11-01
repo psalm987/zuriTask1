@@ -17,7 +17,7 @@ export default function LinkSection() {
     {
       id: "book__python",
       text: "Python Books",
-      url: "https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+      url: "https://books.zuri.team/python-for-beginners?ref_id=seibidor.samuel"
     },
     {
       id: "pitch",
