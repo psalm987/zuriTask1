@@ -1,6 +1,6 @@
 import React from "react";
-import slack from "../resources/img/slack_icon.png";
-import github from "../resources/img/github_icon.png";
+import slack from "../Resource/Image/slack_icon.png";
+import github from "../Resource/Image/github_icon.png";
 
 export default function LinkSection() {
   const linkData = [

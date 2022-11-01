@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePicture from "../components/profilepicture";
+import ProfilePicture from "../Component/profilepicture";
 
 export default function ProfileSection() {
   return (
