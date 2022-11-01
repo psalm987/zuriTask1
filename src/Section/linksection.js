@@ -11,12 +11,12 @@ export default function LinkSection() {
     },
     {
       id: "books",
-      text: "Zuri Team",
+      text: "Zuri Books",
       url: "http://books.zuri.team "
     },
     {
       id: "book__python",
-      text: "Zuri Books",
+      text: "Python Books",
       url: "https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
     },
     {
