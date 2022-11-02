@@ -10,6 +10,14 @@
   padding-inline: 16px;
 }
 
+.monly {
+  display: block;
+}
+
+.nmob {
+  display: none;
+}
+
 .section {
   display: flex;
   flex-direction: column;
@@ -18,7 +26,35 @@
 }
 
 .profileSection {
-  margin-top: 64px;
+  padding-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 736px;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  top: 20px;
+  right: 0px;
+  border: 1px dashed #d0d5dd;
+}
+
+.menu:hover {
+  background: #f2f4f7;
+  border: 1px solid #d0d5dd;
+  cursor: pointer;
+}
+
+.menu > img {
+  width: 14px;
 }
 
 #profile__img {
@@ -121,5 +157,14 @@ hr {
   }
   .footer > img {
     height: 24px;
+  }
+  .menu {
+    top: 44px;
+  }
+  .monly {
+    display: none;
+  }
+  .nmob {
+    display: block;
   }
 }
