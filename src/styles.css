@@ -86,7 +86,7 @@
 }
 
 hr {
-  margin-block: auto;
+  margin: auto;
   max-width: 1152px;
   border: 0.5px solid #eaecf0;
 }
