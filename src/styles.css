@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: 0.2s ease-in;
 }
 
 .App {
@@ -57,11 +58,59 @@
   width: 14px;
 }
 
-#profile__img {
+.profimg__container {
+  position: relative;
   height: 88px;
   width: 88px;
-  border-radius: 275px;
+  border-radius: 100%;
   margin-bottom: 24px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.profimg__container:focus {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5.5px solid #ebe9fe;
+}
+
+.profimg__icon {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 20px;
+  height: auto;
+  filter: invert(1);
+}
+
+#profile__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.profimg__overlay {
+  position: absolute;
+  border-radius: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(52, 64, 84, 0.75);
+}
+
+.profimg__container:hover .profimg__overlay {
+  opacity: 1;
 }
 
 #twitter {
@@ -95,7 +144,7 @@
   background-color: #eaecf0;
   padding: 24px 32px;
   text-align: center;
-  border: 1px none;
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 8px;
 }
 
