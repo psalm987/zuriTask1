@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProfilePicture() {
   const iconSource = "https://cdn-icons-png.flaticon.com/512/4146/4146794.png";
   const imageSource =
