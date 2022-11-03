@@ -1,4 +1,3 @@
-import React from "react";
 import ProfilePicture from "../Component/profilepicture";
 import Share from "../Resource/Image/share.png";
 import Dots from "../Resource/Image/dots.png";
